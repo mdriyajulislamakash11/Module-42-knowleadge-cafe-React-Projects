@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = ({hanleBookark}) => {
+const Blogs = ({hanleBookark, hanleBookReadingTime}) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -20,6 +20,7 @@ const Blogs = ({hanleBookark}) => {
           key={blog.id} 
           blog={blog} 
           hanleBookark={hanleBookark}
+          hanleBookReadingTime={hanleBookReadingTime}
         />
         ))}
       </div>

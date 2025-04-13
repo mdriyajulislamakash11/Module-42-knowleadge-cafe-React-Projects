@@ -1,6 +1,6 @@
 import React from 'react';
 
-const BookMark = ({bookMark}) => {
+const BookMark = ({bookMark,}) => {
     const {title} = bookMark;
 
     return (

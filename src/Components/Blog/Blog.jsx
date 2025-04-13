@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBookmark } from "react-icons/fa";
 
-const Blog = ({ blog, hanleBookark }) => {
+const Blog = ({ blog, hanleBookark, hanleBookReadingTime }) => {
   const {
     cover,
     title,
@@ -49,8 +49,8 @@ const Blog = ({ blog, hanleBookark }) => {
       </p>
 
       <button
-      // onClick={() => handleReadingBook(reading_time)}
-      // className="text-purple-800 font-bold underline"
+      onClick={() => hanleBookReadingTime(reading_time)}
+      className="text-purple-800 font-bold underline"
       >
         Mark As Read
       </button>
