@@ -1,12 +1,43 @@
-# React + Vite
+# 📚 Knowledge Cafe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Site 👉 [Visit Now](https://capable-gelato-a763fe.netlify.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Description
 
-## Expanding the ESLint configuration
+**Knowledge Cafe** হলো একটি ব্লগ রিডিং অ্যাপ যেখানে ইউজাররা বিভিন্ন ব্লগ পোস্ট দেখতে পারবে এবং সেই পোস্টগুলো বুকমার্ক করতে পারবে। এছাড়াও প্রতিটি ব্লগের জন্য আলাদা করে রিডিং টাইম হিসাব করে দেখানো হয়।
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🔥 Features
+
+- 📰 Blog post গুলো ফেচ করা হয় `blogs.json` থেকে।
+- 📌 প্রতিটি ব্লগ বুকমার্ক করার অপশন রয়েছে।
+- ⏱️ রিডিং টাইম কাউন্টার, যেটা যোগ হয়ে বাড়ে।
+- ✅ একাধিক component ব্যবহৃত হয়েছে Clean UI এর জন্য।
+- 🎯 Bookmark করা ব্লগগুলো আলাদা সেকশনে দেখা যায়।
+
+---
+
+## 🧩 Components Used
+
+- `Header`
+- `Blogs`
+- `Blog`
+- `BookMarks`
+- `BookMark`
+
+---
+
+## 🛠️ Technologies Used
+
+- React.js
+- JSX
+- Tailwind CSS
+- React Icons
+
+---
+
+## 📁 Folder Structure
+
