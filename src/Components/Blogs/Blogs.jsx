@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 
-const Blogs = () => {
+const Blogs = ({hanleBookark}) => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
@@ -9,10 +9,6 @@ const Blogs = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-
-  const hanleBookark = (book) => {
-    console.log("bookMark", book);
-  };
 
   return (
     <div className="md:w-2/3">
@@ -23,7 +19,8 @@ const Blogs = () => {
           <Blog 
           key={blog.id} 
           blog={blog} 
-          hanleBookark={hanleBookark} />
+          hanleBookark={hanleBookark}
+        />
         ))}
       </div>
     </div>
